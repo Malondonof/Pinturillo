@@ -7,9 +7,9 @@ st.subheader("Dibuja en el lienzo")
 
 
 with st.sidebar:
-  st.subheader("Prueba")
+  st.subheader("Prueba de herramientas")
   drawing_mode = st.sidebar.selectbox(
-    "Herramienta de Dibujo:",
+    "Herramientas de Dibujo:",
     ("freedraw", "line", "rect", "circle"),
   )
 
