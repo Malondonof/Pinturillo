@@ -23,7 +23,7 @@ bg_color = '#ffffff'
 st.write("The current color is", stroke_color)
 with st.sidebar:
     st.subheader("Propiedades")
-    stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 10)
+    stroke_width = st.slider('Selecciona el grosor de la línea', 1, 30, 10)
   
 
 canvas_result = st_canvas(
