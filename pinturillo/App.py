@@ -3,7 +3,7 @@ from streamlit_drawable_canvas import st_canvas
 
 st.set_page_config(page_title='Arte', layout='wide')
 st.title('Haz una hermosa obra de arte')
-st.subheader("Dibuja en el panel")
+st.subheader("Dibuja en el lienzo")
 
 
 with st.sidebar:
