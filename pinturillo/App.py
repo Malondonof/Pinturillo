@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
-st.set_page_config(page_title='Pintando con estilo', layout='wide')
+st.set_page_config(page_title='Arte', layout='wide')
 st.title('Haz una hermosa obra de arte')
 st.subheader("Dibuja en el panel")
 
